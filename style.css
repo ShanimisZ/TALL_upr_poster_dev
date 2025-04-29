@@ -1,0 +1,48 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fafafa;
+  color: #222;
+  margin: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5em;
+  color: #5f4b8b; /* Lavender */
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #5f4b8b; /* Lavender */
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff7e79; /* Coral */
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e06666; /* Slightly deeper coral */
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #666;
+}
